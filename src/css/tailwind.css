@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.box-between {
+  @apply flex items-center justify-between;
+}
+
+.box-center {
+  @apply flex items-center justify-center;
+}
+
+:root {
+  --swiper-navigation-color: white !important;
+  --swiper-theme-color: white !important;
+}
+
+.header-links a:hover {
+  @apply text-blue-brand font-bold;
+}
